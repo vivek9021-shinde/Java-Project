@@ -1,0 +1,128 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+.product-card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 15px; 
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.product-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s ease; 
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05); 
+}
+
+.product-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #222; 
+  font-size: 1.1rem;
+}
+
+.product-use {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #555;
+  margin-top: 8px;
+}
+
+.product-price {
+  margin-top: 8px;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.product-discount {
+  margin-top: 5px;
+  color: #28a745; 
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.product-rating {
+  margin-top: 5px;
+  color: #f39c12; 
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Green "Buy Now" Button Styling */
+.buy-now-button {
+  margin-top: 15px;
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px; 
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.buy-now-button:active {
+  background-color: #3a8d3f; 
+  transform: translateY(1px); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 768px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr; 
+  }
+}
+.product-container{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.product-container h1{
+  font-size: 30px;
+  font-weight:bold;
+ 
+  text-align: center;
+
+ 
+}

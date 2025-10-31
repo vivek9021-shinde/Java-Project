@@ -1,0 +1,127 @@
+/* src/Pages/Reminder.css */
+
+
+
+.reminder-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f7fb;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .reminder-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-color: black;
+  }
+  
+  .form-group {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="datetime-local"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="email"]:focus,
+  input[type="text"]:focus,
+  input[type="datetime-local"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  p {
+    font-size: 20px;
+    color:#333(228, 43, 43);
+    margin-top: 20px;
+  }
+  
+  /* Error message */
+  p.error {
+    color: #dc3545;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .reminder-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 18px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 8px 12px;
+    }
+  }
+ 
+  

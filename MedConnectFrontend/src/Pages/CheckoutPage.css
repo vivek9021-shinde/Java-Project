@@ -1,0 +1,90 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+ body {
+    background-image: url('../images/blank2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  .product-details {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-details img {
+    max-height: 150px;
+    max-width:150px;
+    margin-bottom: 10px;
+  }
+  
+  .quantity-input {
+    margin-top: 10px;
+  }
+  
+  .form-fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .input-error {
+    border-color: red;
+  }
+  
+  .error-tooltip {
+    position: absolute;
+    left: 5%;
+    bottom: -20px;
+    background: rgba(255, 0, 0, 0.1);
+    color: red;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 4px;
+  }
+  
+  .payment-method {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:first-child {
+    background-color: #28a745;
+    color: white;
+  margin-right: 10px;
+ 
+  }
+  
+  button:last-child {
+    background-color: rgb(62, 183, 62);
+    color: white;
+
+  }
+  

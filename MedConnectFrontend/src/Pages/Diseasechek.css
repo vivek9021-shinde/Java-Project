@@ -1,0 +1,85 @@
+
+
+.disease-check-container {
+  margin-top: 300px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-image: url('../images/Ai.jpg');
+  margin-bottom: 30px;
+  margin-top: 150px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.disease-check-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.disease-check-form label {
+  font-size: 18px;
+  color: #333;
+}
+
+.disease-check-form input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.disease-check-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.disease-check-form button:hover {
+  background-color: #0056b3;
+}
+
+.results {
+  margin-top: 20px;
+  text-align: left;
+ 
+}
+
+.results h2 {
+  color: white;
+}
+
+.results ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: white;
+}
+
+.no-results {
+  margin-top: 20px;
+  color: red;
+}
+
+.back-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
